@@ -1,0 +1,27 @@
+/* Paleta de Colores */
+:root {
+    --negro: #000208;
+    --marino: #27011a;
+
+    --lila: #9b5cff;
+    --lilaClaro: #c084fc;
+    --lilaFuerte: #770568;
+
+    --blanco: #f8fafc;
+    --gris: #9ca3af;
+}
+
+/* Cuerpo */
+body {
+    background-color: var(--negro);
+    color: var(--blanco);
+    font-family: monospace;
+}
+
+/* Barra de Navegación */
+.navbar {
+    background-color: var(--marino);
+    backdrop-filter: blur(15px);
+    border-bottom: 3px solid var(--lilaFuerte);
+    padding: 15px 0;
+}
