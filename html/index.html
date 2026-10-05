@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio HVRR</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 
 <body>
 <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
 
-        <a class="navbar-brand fw-bold text-lila" href="#inicio">Hannia Victoria Reyes</a>
+        <a class="navbar-brand fw-bold texto-lila" href="#inicio">Hannia Victoria Reyes</a>
 <!-- Botón opciones-->
-        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal"
-            aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span>
-        </button>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
 
 <!-- Links a secciones -->
         <div class="collapse navbar-collapse" id="menuPrincipal">
-            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-10">
-                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+                <li class="nav-item"><a class="barra-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="barra-link" href="#sobre-mi">Sobre mí</a></li>
+                <li class="nav-item"><a class="barra-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="barra-link" href="#proyectos">Proyectos</a></li>
                 <li class="nav-item ms-lg-3"><a class="btn btn-lila" href="#contacto">CONTACTAME</a></li>
             </ul>
         </div>
@@ -43,21 +42,21 @@
                 <h1 class="hero-titulo">HANNIA VICTORIA</h1>
                 <h3 class="hero-subtitulo">PROGRAMADORA JAVA FULL STACK.</h3>
                 <p class="hero-descripcion">
-                    Ayudo a transformar necesidades y problemas en soluciones, combinando mi formación como 
-                    ingeniera con mi creciente experiencia en desarrollo de software. Me enfocó en tecnología 
-                    y desarrollo de software, cuento con habilidad en entornos técnicos, que me ha permitido expandir
-                    una fuerte capacidad de análisis, resolución de problemas, atención al detalle y trabajo en equipo.
+                    Ayudo a transformar necesidades y problemas en soluciones, combinando mi formación como ingeniera con mi creciente 
+                    experiencia en desarrollo de software. Me enfocó en tecnología y desarrollo de software, cuento con habilidad en entornos 
+                    técnicos, que me ha permitido expandir una fuerte capacidad de análisis, resolución de problemas, atención al detalle y trabajo en equipo.
                 </p>
 
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
                     <a href="#proyectos" class="btn btn-lila btn-lg">Ver proyectos</a>
                     <a href="https://github.com/hanniavictoria" class="btn btn-outline-light btn-lg">Git Hub</a>
+                    <a href="https://www.linkedin.com/in/hanniavictoria/" class="btn btn-outline-light btn-lg">LinkedIn</a>
                 </div>
             </div>
 
             <div class="col-lg-5 text-center mt-5 mt-lg-0">
                 <div class="hero-imagen">
-                    <img src="images/Hanni_Programando.png" alt="Hannia programando" class="img-fluid">
+                    <img src="/images/Hanni_Programando.png" alt="Hannia programando" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -66,7 +65,7 @@
 
 <!-- Sobre Mi -->
 <section id="sobre-mi" class="sobre-mi py-5">
-    <div class="container py-5">
+    <div class="container">
         <div class="text-center mb-5">
             <p class="seccion-etiqueta">CONÓCEME</p>
             <h2 class="seccion-titulo">Sobre mí</h2>
@@ -74,7 +73,7 @@
 
         <div class="row align-items-center g-5">
             <div class="col-lg-5 text-center">
-                <img src="images/HanniaVictoria.png" alt="Hannia Victoria" class="img-fluid sobre-mi-imagen">
+                <img src="/images/HanniaVictoria.png" alt="Hannia Victoria" class="img-fluid sobre-mi-imagen">
             </div>
 
             <div class="col-lg-7">
@@ -84,15 +83,14 @@
                     soluciones que respondan a necesidades reales.
                 </p>
                 <p class="sobre-mi-texto"> 
-                    Actualmente estoy fortaleciendo mi perfil en desarrollo Java Full Stack, participando en 
-                    proyectos y formación práctica que me han permitido desarrollar una visión más amplia del 
-                    proceso de creación de software. Disfruto enfrentar retos que requieren análisis y convertirlos 
-                    en soluciones claras y funcionales.
+                    Actualmente estoy fortaleciendo mi perfil en desarrollo Java Full Stack, participando en proyectos y formación 
+                    práctica que me han permitido desarrollar una visión más amplia del proceso de creación de software. 
+                    Disfruto enfrentar retos que requieren análisis y convertirlos en soluciones claras y funcionales.
                 </p>
 <!-- Estudios y certificaciones -->
                 <div class="row mt-4 g-3">
                     <div class="col-md-6">
-                        <div class="info-card h-100">
+                        <div class="tarjeta-info h-100">
                             <h4>🎓 Estudios</h4>
                             <ul>
                                 <li>Generetion México: Desarrollo Java Full Stack</li>
@@ -103,7 +101,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <div class="info-card h-100">
+                        <div class="tarjeta-info h-100">
                             <h4>📜 Cursos</h4>
                             <ul>
                                 <li>Udemy: Universidad Java: Experto en Java de Cero a Master</li>
@@ -121,7 +119,7 @@
 
 <!-- Skills -->
 <section id="skills" class="skills py-5">
-    <div class="container py-5">
+    <div class="container">
         <div class="text-center mb-5">
             <p class="seccion-etiqueta">MIS HERRAMIENTAS</p>
             <h2 class="seccion-titulo">Skills</h2>
@@ -131,65 +129,65 @@
         </div>
 
         <div class="row g-4 justify-content-center">
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">☕</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-java-plain"></i></div>
                     <h3>Java</h3>
                     <p>Desarrollo backend y programación orientada a objetos.</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">&lt;/&gt;</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-html5-plain"></i></div>
                     <h3>HTML</h3>
                     <p>Estructura y contenido de aplicaciones web.</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">#</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-css3-plain"></i></div>
                     <h3>CSS</h3>
                     <p>Diseño responsive, estilos y animaciones.</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">JS</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-javascript-plain"></i></div>
                     <h3>JavaScript</h3>
                     <p>Interactividad y lógica del lado del cliente.</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">B</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-bootstrap-plain"></i></div>
                     <h3>Bootstrap</h3>
                     <p>Interfaces responsive mediante componentes y Grid.</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">DB</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-mysql-original"></i></div>
                     <h3>MySQL</h3>
                     <p>Bases de datos relacionales y consultas SQL.</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">Git</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-git-plain"></i></div>
                     <h3>Git</h3>
                     <p>Control de versiones para proyectos.</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-3">
-                <div class="skill-card h-100">
-                    <div class="skill-icon">GH</div>
+            <div class="col-md-4 col-lg-3">
+                <div class="tarjeta-skill h-100">
+                    <div class="skill-icono"><i class="devicon-github-original"></i></div>
                     <h3>GitHub</h3>
                     <p>Repositorios y colaboración en proyectos.</p>
                 </div>
@@ -200,48 +198,47 @@
 
 <!-- Proyectos-->
 <section id="proyectos" class="proyectos py-5">
-    <div class="container py-5">
+    <div class="container">
         <div class="text-center mb-5">
             <p class="seccion-etiqueta">MI TRABAJO</p>
             <h2 class="seccion-titulo">Proyectos</h2>
             <p class="proyectos-descripcion">
-                Algunos proyectos que he desarrollado durante
-                mi formación en desarrollo de software.
+                Algunos proyectos que he desarrollado durante mi formación en desarrollo de software.
             </p>
         </div>
 <!-- PROYECTO 1-->
         <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="card proyecto-card h-100">
-                    <img src="img/proyecto1.png" class="card-img-top" alt="Proyecto 1">
+            <div class="col-md-6 col-lg-4">
+                <div class="card tarjeta-proyecto h-100">
+                    <img src="/images/kanuSport.PNG" class="card-img-top" alt="Proyecto 1">
                     <div class="card-body">
-                        <h3 class="card-title">Hackaton - Tienda Deportiva</h3>
-                        <p class="card-text">
-                            Kanu Sport es una landing page desarrollada durante un hackathon para una marca 
-                            ficticia de ropa deportiva artesanal. El proyecto busca crear una presencia digital 
-                            atractiva y responsive que permita presentar sus productos, comunicar la identidad de 
-                            la marca y facilitar el contacto con clientes interesados desde diferentes dispositivos.
+                        <h3 class="titulo-proyecto">Hackaton - Tienda Deportiva</h3>
+                        <p class="texto-proyecto">
+                            Kanu Sport es una landing page desarrollada durante un hackathon para una marca ficticia de ropa 
+                            deportiva artesanal. El proyecto busca crear una presencia digital atractiva y responsive que permita 
+                            presentar sus productos, comunicar la identidad de la marca y facilitar el contacto con clientes 
+                            interesados desde diferentes dispositivos.
                         </p>
-                        <div class="mb-4">
+                        <div class="d-flex flex-wrap gap-2 mb-4">
                             <span class="badge tecnologia">JavaScript</span>
                             <span class="badge tecnologia">HTML</span>
                             <span class="badge tecnologia">CSS</span>
                         </div>
-                        <a href="#" class="btn btn-lila">Ver proyecto</a>
+                        <a href="https://github.com/GonzaloVargas-12/TiendaDeportiva-HACKATON" class="btn btn-lila">Ver proyecto</a>
                     </div>
                 </div>
             </div>
 
 <!-- PROYECTO 2 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="card proyecto-card h-100">
+            <div class="col-md-6 col-lg-4">
+                <div class="card tarjeta-proyecto h-100">
                     <img src="img/proyecto2.png" class="card-img-top" alt="Proyecto 2">
                     <div class="card-body">
-                        <h3 class="card-title">Hackaton 2</h3>
-                        <p class="card-text">
+                        <h3 class="titulo-proyecto">Hackaton 2</h3>
+                        <p class="texto-proyecto">
                             Aún no lo hacemos, texto texto texto jaja
                         </p>
-                        <div class="mb-4">
+                        <div class="d-flex flex-wrap gap-2 mb-4">
                             <span class="badge tecnologia">JavaScript</span>
                             <span class="badge tecnologia">Java</span>
                         </div>
@@ -251,26 +248,25 @@
             </div>
 
 <!-- PROYECTO 3 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="card proyecto-card h-100">
-                    <img src="img/proyecto3.png" class="card-img-top" alt="Proyecto 3">
+            <div class="col-md-6 col-lg-4">
+                <div class="card tarjeta-proyecto h-100">
+                    <img src="/images/tienda3v.PNG" class="card-img-top" alt="Proyecto 3">
                     <div class="card-body">
-                        <h3 class="card-title">Proyecto Integrador</h3>
-                        <p class="card-text">
-                            Tiendas 3V es una plataforma de comercio electrónico desarrollada 
-                            como proyecto integrador para facilitar la compra de productos en línea. 
-                            Centraliza la exploración de productos y el proceso de compra en una interfaz 
-                            intuitiva y responsive, ofreciendo una experiencia accesible desde distintos 
-                            dispositivos y simplificando la interacción entre usuarios y la tienda.
+                        <h3 class="titulo-proyecto">Proyecto Integrador</h3>
+                        <p class="texto-proyecto">
+                            Tiendas 3V es una plataforma de comercio electrónico desarrollada como proyecto integrador para facilitar 
+                            la compra de productos en línea. Centraliza la exploración de productos y el proceso de compra en una 
+                            interfaz intuitiva y responsive, ofreciendo una experiencia accesible desde distintos dispositivos y 
+                            simplificando la interacción entre usuarios y la tienda.
                         </p>
-                        <div class="mb-4">
+                        <div class="d-flex flex-wrap gap-2 mb-4">
                             <span class="badge tecnologia">Java</span>
                             <span class="badge tecnologia">MySQL</span>
                             <span class="badge tecnologia">JavaScript</span>
                             <span class="badge tecnologia">HTML</span>
                             <span class="badge tecnologia">CSS</span>
                         </div>
-                        <a href="#" class="btn btn-lila">Ver proyecto</a>
+                        <a href="https://github.com/FerIqm1993/Proyecto-Integrador-Generation" class="btn btn-lila">Ver proyecto</a>
                     </div>
                 </div>
             </div>
@@ -281,7 +277,7 @@
 <!-- Contacto -->
 
 <section id="contacto" class="contacto py-5">
-    <div class="container py-5">
+    <div class="container">
         <div class="text-center mb-5">
             <p class="seccion-etiqueta">HABLEMOS</p>
             <h2 class="seccion-titulo">Contacto</h2>
@@ -310,6 +306,7 @@
                     <div class="text-center">
                         <button type="submit" class="btn btn-lila btn-lg">Enviar mensaje</button>
                     </div>
+                    <p id="mensaje-formulario" class="text-center mt-3"></p>
                 </form>
             </div>
         </div>
@@ -319,11 +316,11 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
-        <p class="mb-0">© <span id="anio"></span>Hannia Victoria. Todos los derechos reservados.</p>
+        <p class="mb-0">© <span id="anio"></span>Hannia Victoria. Todos los derechos reservados. 2026</p>
     </div>
 </footer>
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
