@@ -232,15 +232,18 @@
 <!-- PROYECTO 2 -->
             <div class="col-md-6 col-lg-4">
                 <div class="card tarjeta-proyecto h-100">
-                    <img src="img/proyecto2.png" class="card-img-top" alt="Proyecto 2">
+                    <img src="/images/agendaTelefonica.PNG" class="card-img-top" alt="Proyecto 2">
                     <div class="card-body">
-                        <h3 class="titulo-proyecto">Hackaton 2</h3>
+                        <h3 class="titulo-proyecto">Hackaton - Sistema de Agenda Telefónica</h3>
                         <p class="texto-proyecto">
-                            Aún no lo hacemos, texto texto texto jaja
+                            Sistema que permite registrar, buscar, modificar, eliminar y listar contactos, incorporando validaciones
+                            para evitar registros duplicados, controlar campos vacíos y administrar una capacidad de 10 contactos. 
                         </p>
                         <div class="d-flex flex-wrap gap-2 mb-4">
-                            <span class="badge tecnologia">JavaScript</span>
                             <span class="badge tecnologia">Java</span>
+                            <span class="badge tecnologia">POO</span>
+                            <span class="badge tecnologia">GitHub / Git</span>
+                            <span class="badge tecnologia">Metodología Scrum</span>
                         </div>
                         <a href="#" class="btn btn-lila">Ver proyecto</a>
                     </div>
@@ -288,19 +291,20 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <form class="formulario-contacto">
+                    <input type="hidden" name="access_key" value="a37adcf8-684c-4416-8f0a-03a09048d46a">
                     <div class="mb-4">
                         <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                        <input name= "name" type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
                     </div>
 
                     <div class="mb-4">
                         <label for="correo" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
+                        <input name="email" type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
                     </div>
 
                     <div class="mb-4">
                         <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="mensaje" rows="6" placeholder="Escribe tu mensaje..."></textarea>
+                        <textarea class="form-control" name="message" id="mensaje" rows="6" placeholder="Escribe tu mensaje..."></textarea>
                     </div>
 
                     <div class="text-center">
